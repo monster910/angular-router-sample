@@ -12,3 +12,4 @@ export class SecondComponent implements OnInit {
   ngOnInit() { }
 
 }
+

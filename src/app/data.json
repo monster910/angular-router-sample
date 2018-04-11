@@ -1,0 +1,25 @@
+[{
+  "id": 1,
+  "target": {
+    "id": 1,
+    "value": 4.22
+  },
+  "businessTypes": [{
+    "companyId": 1,
+    "name": "ACUTE"
+  }
+  ],
+  "customDataColumns": [
+    {
+      "id": 1,
+      "columnName": "Vice President",
+      "value": "Andy Dufrane"
+    },
+    {
+      "id": 2,
+      "columnName": "Region",
+      "value": "North"
+    }
+  ]
+}
+]

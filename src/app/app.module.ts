@@ -11,6 +11,9 @@ import { HomeComponent } from './home/home.component';
 import { SecondComponent } from './second/second.component';
 import { FirstchildComponent } from './firstchild/firstchild.component';
 import { SecondchildComponent } from './secondchild/secondchild.component';
+import {DataService} from './data.service';
+import {HttpClientModule} from '@angular/common/http';
+import {TestmoduleModule} from './testmodule/testmodule.module';
 
 @NgModule({
   declarations: [
@@ -18,16 +21,18 @@ import { SecondchildComponent } from './secondchild/secondchild.component';
     HomeComponent,
     SecondComponent,
     FirstchildComponent,
-    SecondchildComponent
+    SecondchildComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
+    TestmoduleModule,
     HttpModule,
     MaterializeModule,
     RoutingModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
